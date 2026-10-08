@@ -1,4 +1,4 @@
-# Lab 1: Azure setup
+# Lab 1: Setup Azure Resources
 
 ## Goal
 Build the Azure foundation for the lab: a resource group, a virtual network with a subnet, and two VMs (Windows Server and a Windows 11 client).
@@ -6,12 +6,12 @@ Build the Azure foundation for the lab: a resource group, a virtual network with
 ## Steps
 
 ### 1. Create the resource group
-Searched for **Resource groups** in Azure, selected **Create**, chose my subscription, named it `[resource-group-name]`, picked the region `[region]`, and created it.
+ Resource Group name: `[resource-group-name]`.
 
 ![Resource group created](../screenshots/01-resource-group.png)
 
 ### 2. Create the virtual network
-Searched for **Virtual networks** and selected **Create**. Chose the subscription and resource group, named the network `[vnet-name]`, and picked the same region. The address space is `[x.x.0.0/16]`.
+Virtual Network Name: `[vnet-name]`. Address Space: `[x.x.0.0/16]`.
 
 ![Virtual network created](../screenshots/02-virtual-network.png)
 
