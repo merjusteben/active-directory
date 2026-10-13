@@ -23,7 +23,7 @@
 
 <h3>Labs</h3>
 
-1. [Azure Infrastructure Setup]()
+1. [Azure Infrastructure Setup](https://github.com/merjusteben/active-directory/blob/main/docs/01-azure-setup.md)
 2. [Domain Controller Deployment]()
 3. [Domain Client Integration]()
 4. [Active Directory Object Management]()
