@@ -1,25 +1,33 @@
 ## Objective
 
-The objective of this lab was to join the Windows client virtual machine to the `itlab.local` Active Directory domain. This established the connection between the client computer and the domain controller, enabling centralized authentication and domain-based management.
+The objective of this lab was to join the Windows client virtual machine to the `itlab.local` Active Directory domain hosted on Windows Server 2025. This established domain membership and prepared the client for centralized authentication, policy enforcement, and resource access.
 
 ## Implementation Steps
 
-### Step 1: Configure the Client's Network Settings
+### Step 1: Join the Client Computer to the Domain
 
-> Verified the Windows client virtual machine's network configuration to ensure it could communicate with the domain controller. The client needed access to the domain controller's DNS service to locate the `itlab.local` domain.
+Used the existing Azure virtual network configuration to provide the client with network connectivity and DNS settings. Azure manages private IP address allocation for the virtual machine's network interface, so no manual network configuration was required on the client.
 
-**Screenshot 1:** Windows Client Network Configuration
+Joined the Windows client virtual machine to the `itlab.local` Active Directory domain by providing the necessary domain credentials.
 
-### Step 2: Join the Client Computer to the Domain
+**Screenshot 1:** Joining the Windows Client to the `itlab.local` Domain
 
-> Joined the Windows client virtual machine to the Active Directory domain named `itlab.local`.
+### Step 2: Confirm Successful Domain Membership
 
-**Screenshot 2:** Joining the Windows Client to `itlab.local`
+After completing the domain join process, verified the successful join confirmation. This established the client as a member of the Active Directory domain and enabled it to participate in the domain environment.
 
-**Screenshot 3:** Successful Domain Join Confirmation
+**Screenshot 2:** Successful Domain Join Confirmation
 
-### Step 3: Verify Domain Membership
+## Verification and Results
 
-> Verified that the Windows client was joined to the `itlab.local` domain. This established the foundation for centralized management through Active Directory and prepared the client for subsequent configuration and testing.
+Successfully joined the Windows client virtual machine to the `itlab.local` Active Directory domain using the existing Azure network configuration.
 
-**Screenshot 4:** Windows Client Showing Domain Membership
+The client was now ready for subsequent labs involving domain user authentication, remote access, Group Policy configuration, and shared network resources.
+
+## Skills Demonstrated
+
+* Joining a Windows client to an Active Directory domain
+* Understanding Azure virtual network integration
+* Understanding Azure-managed private IP address allocation and DNS configuration
+* Establishing domain membership
+* Preparing a client workstation for centralized administration
