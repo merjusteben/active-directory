@@ -22,15 +22,15 @@ The objective of this lab was to install Active Directory Domain Services (AD DS
 
 ### Step 3: Configure DNS Through Active Directory Deployment
 
-DNS was installed automatically during the Active Directory Domain Services configuration.
+> DNS was installed automatically during the Active Directory Domain Services configuration.
 
 **Screenshot 4:** DNS Server Role and Configuration
 
 ### Step 4: Install the DHCP Server Role
 
-Installed the Dynamic Host Configuration Protocol (DHCP) Server role to explore centralized IP address assignment for devices on the lab network.
+> Installed the Dynamic Host Configuration Protocol (DHCP) Server role to explore centralized IP address assignment for devices on the lab network.
 
-However, the DHCP server did not successfully lease IP addresses to client virtual machines in the Azure environment. Azure manages virtual network connectivity and private IP address allocation through its own infrastructure, which differs from a traditional on-premises network where a Windows DHCP server commonly assigns client addresses.
+> However, the DHCP server did not successfully lease IP addresses to client virtual machines in the Azure environment. Azure manages virtual network connectivity and private IP address allocation through its own infrastructure, which differs from a traditional on-premises network where a Windows DHCP server commonly assigns client addresses.
 
 **Screenshot 5:** Installing the DHCP Server Role
 
