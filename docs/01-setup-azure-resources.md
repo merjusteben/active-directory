@@ -1,44 +1,41 @@
-# Lab 1: Setup Azure Resources
+## Objective
 
-## Goal
-Build the Azure foundation for the lab: a resource group, a virtual network with a subnet, and two VMs (Windows Server and a Windows 11 client).
+This lab involved creating a resource group, configuring a virtual network and subnet, setting up custom DNS, and deploying the Windows Server 2025 domain controller virtual machine and Windows client virtual machine on Azure.
 
-## Steps
+## Implementation Steps
 
-### 1. Create the resource group
- Resource Group name: `[resource-group-name]`.
+### Step 1: Create the Azure Resource Group
 
-![Resource group created](../screenshots/01-resource-group.png)
+> Created a resource group named `IT-Lab-RG` to organize and manage the Azure resources associated with the Active Directory lab. This resource group serves as the central container for the infrastructure deployed throughout the project.
 
-### 2. Create the virtual network
-Virtual Network Name: `[vnet-name]`. Address Space: `[x.x.0.0/16]`.
+**Screenshot 1:** Azure Resource Group — `IT-Lab-Azure`
 
-![Virtual network created](../screenshots/02-virtual-network.png)
+### Step 2: Configure the Virtual Network and Subnet
 
-### 3. Add a subnet
-Inside the virtual network, I created a subnet named `[subnet-name]` with the range `[x.x.x.0/24]`.
+> Created a virtual network named `IT-Lab-Vnet` to provide network connectivity between the virtual machines in the lab. Configured the virtual network with an address space of `/16` and created a subnet named `IT-Lab-Subnet` with a `/24` address range.
 
-![Subnet created](../screenshots/03-subnet.png)
+> This network configuration provides a dedicated private network for communication between the domain controller and the Windows client.
 
-### 4. Set a custom DNS server
-In the virtual network's DNS settings, I selected **Custom** and entered the IP address I planned to give the Windows Server. The domain controller will run DNS, so the whole network needs to point to it.
+**Screenshot 2:** Virtual Network Configuration — `IT-Lab-Vnet`
 
-![Custom DNS configured](../screenshots/04-custom-dns.png)
+**Screenshot 3:** Subnet Configuration — `IT-Lab-Subnet`
 
-### 5. Create the Windows Server VM
-Searched for **Virtual machines**, selected **Create**, and chose Windows Server 2022. I set the private IP to **static** and used the same address I entered as the custom DNS server.
+### Step 3: Configure Custom DNS Settings
 
-![Windows Server VM created](../screenshots/05-server-vm.png)
-![Static IP configured](../screenshots/06-server-static-ip.png)
+> Configured custom DNS settings for the virtual network to support name resolution within the Active Directory environment. This configuration establishes the DNS settings that the virtual machines use to locate domain services and resolve internal hostnames.
 
-### 6. Create the Windows 11 client VM
-I repeated the same VM steps for the client, placing it in the same virtual network and subnet.
+**Screenshot 4:** Custom DNS Configuration for the Virtual Network
 
-![Windows 11 client VM created](../screenshots/07-client-vm.png)
+### Step 4: Deploy the Windows Server 2025 Virtual Machine
 
-## Result
-The environment is ready for Active Directory: both VMs are in one network, and DNS points to the future domain controller.
+> Created a Windows Server 2025 virtual machine to serve as the foundation for the Active Directory domain controller. Configured a static private IP address and aligned its DNS settings with the custom DNS configuration used in the lab.
 
-## What I learned
-- The DNS server address must be decided before the domain controller exists.
-- A static IP keeps the domain controller's address from changing.
+> This server will host the Active Directory Domain Services role and provide centralized identity and domain management after the domain controller configuration is completed in Lab 02.
+
+**Screenshot 5:** Windows Server 2025 Virtual Machine Deployment and Network Configuration
+
+### Step 5: Deploy the Windows Client Virtual Machine
+
+> Created a separate Windows client virtual machine within the lab environment. This client will be used to test domain joining, domain user authentication, remote access, Group Policy application, and access to shared network resources in subsequent labs.
+
+**Screenshot 6:** Windows Client Virtual Machine Deployment
