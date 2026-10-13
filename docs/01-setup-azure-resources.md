@@ -8,7 +8,7 @@ This lab involved creating a resource group, configuring a virtual network and s
 
 > Created a resource group named `IT-Lab-RG` to organize and manage the Azure resources associated with the Active Directory lab. This resource group serves as the central container for the infrastructure deployed throughout the project.
 
-**Screenshot 1:** Azure Resource Group — `IT-Lab-Azure`
+<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/01-resource-group.png" alt="Azure Active Directory Project Overview" width="350">
 
 ### Step 2: Configure the Virtual Network and Subnet
 
@@ -16,15 +16,13 @@ This lab involved creating a resource group, configuring a virtual network and s
 
 > This network configuration provides a dedicated private network for communication between the domain controller and the Windows client.
 
-**Screenshot 2:** Virtual Network Configuration — `IT-Lab-Vnet`
-
-**Screenshot 3:** Subnet Configuration — `IT-Lab-Subnet`
+<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/vnet.png" alt="Azure Active Directory Project Overview" width="350">
 
 ### Step 3: Configure Custom DNS Settings
 
 > Configured custom DNS settings for the virtual network to support name resolution within the Active Directory environment. This configuration establishes the DNS settings that the virtual machines use to locate domain services and resolve internal hostnames.
 
-**Screenshot 4:** Custom DNS Configuration for the Virtual Network
+<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/dns.png" alt="Azure Active Directory Project Overview" width="350">
 
 ### Step 4: Deploy the Windows Server 2025 Virtual Machine
 
@@ -32,10 +30,10 @@ This lab involved creating a resource group, configuring a virtual network and s
 
 > This server will host the Active Directory Domain Services role and provide centralized identity and domain management after the domain controller configuration is completed in Lab 02.
 
-**Screenshot 5:** Windows Server 2025 Virtual Machine Deployment and Network Configuration
+<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/server-25.png" alt="Azure Active Directory Project Overview" width="350"> <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/02-server-25.png" alt="Azure Active Directory Project Overview" width="350"> <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/ip-config.png" alt="Azure Active Directory Project Overview" width="350">
 
 ### Step 5: Deploy the Windows Client Virtual Machine
 
 > Created a separate Windows client virtual machine within the lab environment. This client will be used to test domain joining, domain user authentication, remote access, Group Policy application, and access to shared network resources in subsequent labs.
 
-**Screenshot 6:** Windows Client Virtual Machine Deployment
+<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/01-win-11.png" alt="Azure Active Directory Project Overview" width="350"> <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/02-win-11.png" alt="Azure Active Directory Project Overview" width="350">
