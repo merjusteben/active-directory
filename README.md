@@ -1,12 +1,25 @@
 <h1 align = "center">Azure Active Directory</h1>
 
-<h3>Project Overview</h3>
+<p align="center">
+  <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/ad.png"
+       alt="Azure Active Directory Project Overview"
+       width="400">
+</p>
 
->This project demonstrates the deployment, configuration, and management of an Active Directory domain environment in Microsoft Azure. The goal was to build a functional Windows domain infrastructure with core system administration and identity management tasks. The project covers domain controller deployment, client domain joining, Active Directory object management, remote access configuration, delegated administration, Group Policy management, and file sharing with network drive mapping. Through this lab, I managed domain users and computers, implemented access controls, applied centralized security policies, and configured shared resources in a centralized Windows environment.
+>This project demonstrates the deployment, configuration, and management of an Active Directory domain environment in Microsoft Azure. The project covers domain controller configuration, user and group management, remote access, group policy management, and file sharing.
 
 <h3>Technologies</h3>
 
-Azure - Windows Server 2025 - Windows 11 - Active Directory - DNS - DHCP - Group Policy Management
+<p align="left">
+  <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Microsoft Azure">
+  <img src="https://img.shields.io/badge/Windows_Server_2025-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Server 2025">
+  <img src="https://img.shields.io/badge/Windows_11-0078D4?style=for-the-badge&logo=windows11&logoColor=white" alt="Windows 11">
+  <img src="https://img.shields.io/badge/Active_Directory-005A9C?style=for-the-badge&logo=microsoft&logoColor=white" alt="Active Directory">
+  <img src="https://img.shields.io/badge/DNS-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="DNS">
+  <img src="https://img.shields.io/badge/DHCP-008272?style=for-the-badge&logo=microsoft&logoColor=white" alt="DHCP">
+  <img src="https://img.shields.io/badge/Group_Policy-6A5ACD?style=for-the-badge&logo=windows&logoColor=white" alt="Group Policy Management">
+</p>
+
 
 <h3>Labs</h3>
 
