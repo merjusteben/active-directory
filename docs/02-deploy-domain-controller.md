@@ -8,7 +8,7 @@ The objective of this lab was to install Active Directory Domain Services (AD DS
 
 > Installed the Active Directory Domain Services (AD DS) role on the Windows Server 2025 virtual machine. This role provides the services required to create and manage a centralized Windows domain, including domain user accounts, computer accounts, authentication, and directory objects.
 
-**Screenshot 1:** Installing the Active Directory Domain Services Role
+<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/adds-install.png" alt="Azure Active Directory Project Overview" width="350">
 
 ### Step 2: Promote the Server to a Domain Controller
 
@@ -16,15 +16,13 @@ The objective of this lab was to install Active Directory Domain Services (AD DS
 
 > This established the domain infrastructure required for centralized identity management and domain-based authentication. The server became the primary domain controller for the lab environment.
 
-**Screenshot 2:** Promoting the Windows Server to a Domain Controller
-
-**Screenshot 3:** Creating the `itlab.local` Domain
+<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/deploy-dc.png" alt="Azure Active Directory Project Overview" width="350">
 
 ### Step 3: Configure DNS Through Active Directory Deployment
 
 > DNS was installed automatically during the Active Directory Domain Services configuration.
 
-**Screenshot 4:** DNS Server Role and Configuration
+<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/deploy-dns.png" alt="Azure Active Directory Project Overview" width="350">
 
 ### Step 4: Install the DHCP Server Role
 
@@ -32,6 +30,5 @@ The objective of this lab was to install Active Directory Domain Services (AD DS
 
 > However, the DHCP server did not successfully lease IP addresses to client virtual machines in the Azure environment. Azure manages virtual network connectivity and private IP address allocation through its own infrastructure, which differs from a traditional on-premises network where a Windows DHCP server commonly assigns client addresses.
 
-**Screenshot 5:** Installing the DHCP Server Role
+<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/deploy-dhcp.png" alt="Azure Active Directory Project Overview" width="350"> <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/authorize-dhcp.png" alt="Azure Active Directory Project Overview" width="350"> <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/dhcp-scope.png" alt="Azure Active Directory Project Overview" width="350"> <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/dhcp-dns.png" alt="Azure Active Directory Project Overview" width="350"> <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/dhcp-overview.png" alt="Azure Active Directory Project Overview" width="350">
 
-**Screenshot 6:** DHCP Configuration or Client IP Address Troubleshooting
