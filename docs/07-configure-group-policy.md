@@ -2,30 +2,24 @@
 
 ## Objective
 
-The objective of this lab was to implement centralized Group Policy settings within the `itlab.local` Active Directory domain. I configured desktop wallpaper, Windows Firewall, and Folder Redirection policies intended for all domain users to demonstrate centralized configuration management and consistent user settings.
+The objective of this lab was to implement centralized Group Policy settings within the `itlab.local` Active Directory domain. I configured desktop wallpaper, Windows Firewall, and Folder Redirection policies intended for all domain users and IT OUsto demonstrate centralized configuration management and consistent user settings.
 
 ## Implementation Steps
 
-### Step 1: Configure Group Policy for All Domain Users
+### Step 1: Configure Desktop Wallpaper for IT OU
 
-Accessed Group Policy Management to configure policies intended to apply across the domain user environment. This approach allows administrators to manage user settings centrally rather than configuring each user account individually.
+>Configured a Group Policy setting to standardize desktop wallpaper for the IT OUs.
 
-**Screenshot 1:** Group Policy Management Console
+<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/gpo-wallpaper.png" alt="Azure Active Directory Project Overview" width="350"> <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/gpo-wallpaper2.png" alt="Azure Active Directory Project Overview" width="350"> <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/gpo-wallpaper3.png" alt="Azure Active Directory Project Overview" width="350"> <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/gpo-wallpaper4.png" alt="Azure Active Directory Project Overview" width="350">
 
-### Step 2: Configure Desktop Wallpaper
+### Step 2: Configure Windows Firewall
 
-Configured a Group Policy setting to standardize desktop wallpaper for domain users. This demonstrates how administrators can centrally manage the desktop experience across user accounts.
+> Configured Windows Firewall settings through Group Policy to manage firewall behavior centrally. This helps maintain consistent security configurations across the domain environment.
 
-**Screenshot 2:** Desktop Wallpaper Policy Configuration
+<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/gpo-firewall.png" alt="Azure Active Directory Project Overview" width="350"> <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/gpo-firewall2.png" alt="Azure Active Directory Project Overview" width="350">
 
-### Step 3: Configure Windows Firewall
+### Step 3: Configure Folder Redirection
 
-Configured Windows Firewall settings through Group Policy to manage firewall behavior centrally. This helps maintain consistent security configurations across the domain environment.
+> Configured Folder Redirection through Group Policy for domain users. This feature redirects supported user folders to a designated network location, helping centralize user data and provide access to redirected folders from supported domain-joined computers.
 
-**Screenshot 3:** Windows Firewall Policy Configuration
-
-### Step 4: Configure Folder Redirection
-
-Configured Folder Redirection through Group Policy for domain users. This feature redirects supported user folders to a designated network location, helping centralize user data and provide access to redirected folders from supported domain-joined computers.
-
-**Screenshot 4:** Folder Redirection Policy Configuration
+<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/gpo-folder.png" alt="Azure Active Directory Project Overview" width="350"> <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/gpo-folder2.png" alt="Azure Active Directory Project Overview" width="350"> <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/gpo-folder3.png" alt="Azure Active Directory Project Overview" width="350">
