@@ -14,8 +14,8 @@
 
 ### Step 2: Configure Delegation of Control
 
-Used the Delegation of Control Wizard to assign specific administrative permissions to the Help Desk security group.
+> Used the Delegation of Control Wizard to assign specific administrative permissions to the Help Desk security group.
 
-Selected the Help Desk group as the delegated administrative group and configured permissions for designated user management tasks within the IT Organizational Unit.
+> Selected the Help Desk group as the delegated administrative group and configured permissions for designated user management tasks within the IT Organizational Unit.
 
 <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/delegation2.png" alt="Azure Active Directory Project Overview" width="350"> <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/delegation3.png" alt="Azure Active Directory Project Overview" width="350">
