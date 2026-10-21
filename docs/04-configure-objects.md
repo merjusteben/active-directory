@@ -4,36 +4,24 @@ The objective of this lab was to organize and manage Active Directory objects by
 
 ## Implementation Steps
 
-### Step 1: Create Organizational Units (OUs)
+### Step 1: Create Active Directory Objects (OUS - Groups - Users)
 
-Created Organizational Units in Active Directory to organize users according to their respective departments. The OUs included:
+> Created Organizational Units in Active Directory to organize users according to their respective departments. The OUs included:
 
-* IT
-* Marketing
-* Sales
+> * IT 
+> * Marketing
+> * Sales
 
-This departmental structure provides a logical way to organize directory objects and serves as a foundation for applying department-specific Group Policy settings and administrative controls.
+> This departmental structure provides a logical way to organize directory objects and serves as a foundation for applying department-specific Group Policy settings and administrative controls.
 
-**Screenshot 1:** Departmental Organizational Units in Active Directory Users and Computers
+<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/ad-objects.png" alt="Azure Active Directory Project Overview" width="350">
 
 ### Step 2: Create Security Groups
 
-Created Active Directory groups to organize users according to their roles and responsibilities. The groups included:
+> Created Active Directory groups to organize users according to their roles and responsibilities. The groups included:
 
-* Managers
-* Users
-* Help Desk
+> * Help Desk
 
-These groups provide a centralized way to manage permissions and assign access based on job functions rather than configuring permissions for each user individually.
+> These groups provide a centralized way to manage permissions and assign access based on job functions rather than configuring permissions for each user individually.
 
-**Screenshot 2:** Active Directory Security Groups
-
-### Step 3: Create User Accounts
-
-Created user accounts and organized them according to their respective departments and roles within the Active Directory structure.
-
-Assigned users to the appropriate Organizational Units and groups based on their responsibilities. This established a structured directory in which user accounts could be managed according to departmental placement and group membership.
-
-**Screenshot 3:** User Accounts Organized by Department
-
-**Screenshot 4:** User Group Membership and Account Properties
+<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/ad-objects.png" alt="Azure Active Directory Project Overview" width="350">
