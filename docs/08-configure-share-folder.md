@@ -10,7 +10,7 @@ This setup demonstrates centralized file sharing, access control, and automated 
 
 > Created a shared folder named `Sales` to provide a centralized location for departmental files. The folder was configured as a network resource so authorized domain users could access it from their computers.
 
-<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/mapped.png" alt="Azure Active Directory Project Overview" width="350">
+<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/screenshots/mapped.png" alt="Azure Active Directory Project Overview" width="350">
 
 ### Step 2: Configure Folder Permissions
 
