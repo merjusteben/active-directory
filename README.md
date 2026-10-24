@@ -24,7 +24,7 @@
 <h3>Labs</h3>
 
 1. [Azure Infrastructure Setup](https://github.com/merjusteben/active-directory/blob/main/docs/01-setup-azure-resources.md)
-2. [Domain Controller Deployment](https://github.com/merjusteben/active-directory/edit/main/docs/02-deploy-domain-controller.md)
+2. [Domain Controller Deployment](https://github.com/merjusteben/active-directory/blob/main/docs/02-deploy-domain-controller.md)
 3. [Domain Client Integration](https://github.com/merjusteben/active-directory/blob/main/docs/03-deploy-windows-client.md)
 4. [Active Directory Object Management](https://github.com/merjusteben/active-directory/blob/main/docs/04-configure-objects.md)
 5. [Remote Access Configuration](https://github.com/merjusteben/active-directory/blob/main/docs/05-configure-remote-access.md)
