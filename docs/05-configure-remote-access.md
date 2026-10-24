@@ -10,4 +10,4 @@ The objective of this lab was to configure remote access to the Windows client v
 
 > Remote access permissions must be granted to the appropriate users or groups, and users must have the necessary rights to sign in through Remote Desktop.
 
-<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/remote-access.png" alt="Azure Active Directory Project Overview" width="350">
+<img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/remote-access.png" alt="Azure Active Directory Project Overview" width="350"> <img src="https://github.com/merjusteben/active-directory/blob/main/screenshots/remote-access2.png" alt="Azure Active Directory Project Overview" width="350">
